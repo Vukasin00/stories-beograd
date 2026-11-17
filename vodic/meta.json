@@ -1,0 +1,47 @@
+{
+  "info": {
+    "id": "stories",
+    "guideKey": "st-guide-done",
+    "storageKey": "stories-beograd",
+    "fulfillments": [
+      "delivery",
+      "pickup"
+    ],
+    "sizes": 9,
+    "name": "Stories",
+    "address": "Pjarona de Mondezira 28, Beograd",
+    "phone": "064 124 4266",
+    "hours": "Svaki dan 12:00 – 23:00 · porudžbine za dostavu do 21:45",
+    "instagram": "https://www.instagram.com/stories.beograd/",
+    "logo": "logo.png",
+    "deliveryFee": 250,
+    "cardPayment": [],
+    "locations": 0,
+    "categories": 8,
+    "menu": "static",
+    "menuItems": 50,
+    "closedToday": false,
+    "soldOutToday": [],
+    "orders": "local",
+    "tenantPath": "stories",
+    "emulator": false
+  },
+  "style": {
+    "bg": "#F3F1EF",
+    "card": "#FCFBFA",
+    "inset": "#EAE6E2",
+    "line": "#DCD5CF",
+    "primary": "#7A6A62",
+    "onPrimary": "#FFFFFF",
+    "dark": "#2A221E",
+    "dark2": "#3D322C",
+    "cta": "#245F6C",
+    "ink": "#2A221E",
+    "ink2": "#5C504A",
+    "font": "\"Rozha One\", \"Georgia\", \"Times New Roman\", serif",
+    "tracking": "0.01em",
+    "case": "none",
+    "weight": "400",
+    "scale": "0.84"
+  }
+}

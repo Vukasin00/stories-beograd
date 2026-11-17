@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="sr" data-tenant="stories">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
+    <meta name="description" content="Portal za kuhinju — Stories" />
+    <meta name="theme-color" content="#2A221E" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Kuhinja" />
+    <meta name="robots" content="noindex" />
+    <link rel="icon" href="/stories-beograd/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/stories-beograd/apple-touch-icon.png" />
+    <!-- The kitchen's own manifest, in the HTML from the start: iOS Safari reads the manifest link when the page loads and
+         ignores a later change by the app, so a dynamically swapped link made "Add to Home Screen" install the customer app. -->
+    <link rel="manifest" href="/stories-beograd/manifest-kuhinja.webmanifest" />
+    <title>Kuhinja · Stories</title>
+    <style>
+      /* Splash painted before the JS bundle arrives: the kitchen is dark, so the splash is too. */
+      html, body, #root { height: 100%; margin: 0; }
+      body { background: #2A221E; }
+      .splash { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: var(--color-cream-100, #fff); }
+      .splash-name { font-family: var(--font-display, sans-serif); font-weight: var(--display-weight, 400); font-size: calc(40px * var(--display-scale, 1)); letter-spacing: var(--display-tracking, 0.02em); text-transform: var(--display-case, none); }
+      .splash-sub { font: 600 12px -apple-system, BlinkMacSystemFont, system-ui, sans-serif; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.55; }
+    </style>
+  <style id="tenant-theme">
+ html[data-tenant="stories"] {
+  --color-cream-50: #FCFBFA;
+  --color-cream-100: #F3F1EF;
+  --color-cream-200: #EAE6E2;
+  --color-cream-300: #DCD5CF;
+  --color-cream-400: #BDB2A9;
+  --color-azure-100: #ECE6E2;
+  --color-azure-200: #8B7B73;
+  --color-azure-300: #7A6A62;
+  --color-azure-400: #66574F;
+  --color-on-primary: #FFFFFF;
+  --color-forest-950: #1E1815;
+  --color-forest-900: #2A221E;
+  --color-forest-800: #3D322C;
+  --color-forest-700: #4A3F39;
+  --color-forest-600: #64574F;
+  --color-forest-500: #837870;
+  --color-forest-400: #A1958C;
+  --color-flame-100: #DDEBEE;
+  --color-flame-200: #A6CAD2;
+  --color-flame-500: #245F6C;
+  --color-flame-600: #1D5260;
+  --color-flame-700: #164450;
+  --color-tomato-500: #B03A2E;
+  --color-tomato-100: #F7E1DD;
+  --color-basil-500: #4E7B57;
+  --color-basil-100: #E2EDE3;
+  --color-ink: #2A221E;
+  --color-ink-2: #5C504A;
+  --color-ink-3: #80746D;
+  --font-display: "Rozha One", "Georgia", "Times New Roman", serif;
+  --display-scale: 0.84;
+  --display-tracking: 0.01em;
+  --display-case: none;
+  --display-weight: 400;
+  --motif: url(/stories-beograd/motif.webp) center top / 360px auto repeat, linear-gradient(#F3F1EF, #F3F1EF);
+  --glass-bg: rgba(243, 241, 239, 0.82);
+ }
+/* self-hosted display font (latin + latin-ext for Serbian diacritics); /stories-beograd/ is filled in by vite.config.ts */
+@font-face {
+  font-family: 'Rozha One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/stories-beograd/fonts/rozha-one-400-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Rozha One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/stories-beograd/fonts/rozha-one-400-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+    
+    <script type="module" crossorigin src="/stories-beograd/assets/main-CLVFVsrA.js"></script>
+    <link rel="stylesheet" crossorigin href="/stories-beograd/assets/main-8aLNoPGg.css"><script id="vite-plugin-pwa:register-sw" src="/stories-beograd/registerSW.js"></script></head>
+  <body>
+    <div id="root"><div class="splash"><span class="splash-name">KUHINJA</span><span class="splash-sub">Stories · Učitavanje</span></div></div>
+  </body>
+</html>

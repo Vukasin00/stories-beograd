@@ -1,0 +1,26 @@
+{
+  "id": "/stories-beograd/kuhinja",
+  "name": "Stories · Kuhinja",
+  "short_name": "Kuhinja",
+  "description": "Portal za kuhinju — Stories",
+  "lang": "sr",
+  "start_url": "/stories-beograd/kuhinja",
+  "scope": "/stories-beograd/kuhinja",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#2A221E",
+  "background_color": "#2A221E",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
